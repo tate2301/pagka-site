@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280">
+  <defs>
+    <linearGradient id="stGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F27B6A"/>
+      <stop offset="50%" style="stop-color:#D96BA8"/>
+      <stop offset="100%" style="stop-color:#7C5CFC"/>
+    </linearGradient>
+    <radialGradient id="stGlow" cx="55%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#F27B6A; stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#F27B6A; stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Icon -->
+  <g transform="translate(20, 20)">
+    <path d="M 80,6 A 74,74 0 1,1 27.57,161.4 L 80,80 Z" fill="#1A1A1A"/>
+    <path d="M 80,80 L 27.57,161.4 A 74,74 0 0,0 68.73,8.87 Z" fill="#252525"/>
+    <circle cx="103.24" cy="56.76" r="23" fill="url(#stGrad)"/>
+    <circle cx="103.24" cy="56.76" r="30" fill="url(#stGlow)"/>
+    <ellipse cx="97" cy="50" rx="7" ry="4" fill="#FFFFFF" opacity="0.25" transform="rotate(-45 97 50)"/>
+  </g>
+  
+  <!-- Wordmark below -->
+  <text x="100" y="210" text-anchor="middle" font-family="Inter, sans-serif" font-size="36" font-weight="800" letter-spacing="-0.03em" fill="#1A1A1A">Corelith</text>
+  <text x="100" y="240" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="500" letter-spacing="0.2em" fill="#8A8A8A">BUILT FOR ZIMBABWE</text>
+</svg>
