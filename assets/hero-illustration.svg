@@ -1,0 +1,81 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Background grid -->
+  <defs>
+    <pattern id="dotGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1A1A1A" opacity="0.08"/>
+    </pattern>
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F27B6A" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#F27B6A" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFC" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7C5CFC" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Base grid -->
+  <rect width="800" height="600" fill="url(#dotGrid)"/>
+  
+  <!-- Large geometric shapes -->
+  <!-- Main coral circle -->
+  <circle cx="550" cy="250" r="200" fill="url(#coralGrad)" filter="url(#glow)"/>
+  
+  <!-- Violet accent -->
+  <circle cx="650" cy="400" r="150" fill="url(#violetGrad)" filter="url(#glow)"/>
+  
+  <!-- Charcoal geometric shape (Corelith "pebble" concept) -->
+  <path d="M 450 180 
+           C 450 120, 520 100, 580 130
+           C 640 160, 660 220, 620 280
+           C 580 340, 500 320, 460 280
+           C 420 240, 420 200, 450 180Z" 
+        fill="#1A1A1A" opacity="0.9"/>
+  
+  <!-- UI Card mockup 1 -->
+  <rect x="480" y="160" width="200" height="140" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="495" y="175" width="80" height="8" rx="4" fill="#F27B6A" opacity="0.3"/>
+  <rect x="495" y="190" width="170" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
+  <rect x="495" y="202" width="140" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
+  <rect x="495" y="214" width="160" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
+  <!-- Chart line -->
+  <path d="M 495 250 L 520 240 L 545 255 L 570 230 L 595 245 L 620 220 L 645 235 L 670 215" 
+        stroke="#F27B6A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Chart dots -->
+  <circle cx="520" cy="240" r="3" fill="#F27B6A"/>
+  <circle cx="570" cy="230" r="3" fill="#F27B6A"/>
+  <circle cx="620" cy="220" r="3" fill="#F27B6A"/>
+  <circle cx="670" cy="215" r="3" fill="#F27B6A"/>
+  
+  <!-- UI Card mockup 2 (offset) -->
+  <rect x="520" y="320" width="180" height="120" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" opacity="0.9"/>
+  <rect x="535" y="335" width="60" height="8" rx="4" fill="#7C5CFC" opacity="0.3"/>
+  <rect x="535" y="350" width="150" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
+  <rect x="535" y="362" width="130" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
+  <!-- Bar chart -->
+  <rect x="540" y="390" width="20" height="30" rx="2" fill="#7C5CFC" opacity="0.4"/>
+  <rect x="570" y="380" width="20" height="40" rx="2" fill="#7C5CFC" opacity="0.6"/>
+  <rect x="600" y="370" width="20" height="50" rx="2" fill="#7C5CFC" opacity="0.8"/>
+  <rect x="630" y="360" width="20" height="60" rx="2" fill="#7C5CFC"/>
+  
+  <!-- Small accent shapes -->
+  <circle cx="420" cy="200" r="8" fill="#F27B6A" opacity="0.6"/>
+  <circle cx="680" cy="300" r="6" fill="#7C5CFC" opacity="0.5"/>
+  <circle cx="460" cy="380" r="10" fill="#F27B6A" opacity="0.3"/>
+  
+  <!-- Connection lines (network effect) -->
+  <line x1="580" y1="230" x2="620" y2="380" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="580" y1="230" x2="450" y2="200" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- Floating badge -->
+  <rect x="430" y="280" width="100" height="32" rx="16" fill="#F27B6A"/>
+  <text x="480" y="301" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="600">+24% Growth</text>
+  
+  <!-- Another floating badge -->
+  <rect x="620" y="150" width="90" height="28" rx="14" fill="#7C5CFC"/>
+  <text x="665" y="169" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="11" font-weight="600">Live Data</text>
+</svg>
