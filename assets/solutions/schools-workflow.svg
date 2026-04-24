@@ -1,0 +1,57 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Flat Vector Schools Workflow — Student → attendance → grade → parent notification -->
+
+  <!-- Node 1: Student icon (circle) -->
+  <circle cx="100" cy="180" r="50" fill="#1A1A1A" opacity="0.06" stroke="#1A1A1A" stroke-width="1"/>
+  <circle cx="100" cy="165" r="12" fill="#1A1A1A"/>
+  <path d="M80 195 Q100 175 120 195" stroke="#1A1A1A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Student body -->
+  <circle cx="100" cy="200" r="18" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+
+  <!-- Flow line 1→2 -->
+  <line x1="155" y1="180" x2="195" y2="180" stroke="#7C5CFC" stroke-width="2"/>
+  <polygon points="195,180 187,175 187,185" fill="#7C5CFC"/>
+
+  <!-- Node 2: Attendance check (square with check) -->
+  <rect x="210" y="140" width="60" height="80" rx="4" fill="none" stroke="#7C5CFC" stroke-width="2"/>
+  <rect x="225" y="160" width="30" height="4" rx="2" fill="#7C5CFC" opacity="0.3"/>
+  <rect x="225" y="172" width="20" height="4" rx="2" fill="#7C5CFC" opacity="0.2"/>
+  <path d="M222 190 L228 196 L238 186" stroke="#7C5CFC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Flow line 2→3 -->
+  <line x1="275" y1="180" x2="315" y2="180" stroke="#7C5CFC" stroke-width="2"/>
+  <polygon points="315,180 307,175 307,185" fill="#7C5CFC"/>
+
+  <!-- Node 3: Grade chart (bar chart) -->
+  <rect x="330" y="140" width="60" height="80" rx="4" fill="none" stroke="#F27B6A" stroke-width="2"/>
+  <rect x="342" y="190" width="8" height="20" rx="1" fill="#F27B6A" opacity="0.4"/>
+  <rect x="354" y="175" width="8" height="35" rx="1" fill="#F27B6A" opacity="0.6"/>
+  <rect x="366" y="160" width="8" height="50" rx="1" fill="#F27B6A"/>
+
+  <!-- Flow line 3→4 -->
+  <line x1="395" y1="180" x2="435" y2="180" stroke="#7C5CFC" stroke-width="2"/>
+  <polygon points="435,180 427,175 427,185" fill="#7C5CFC"/>
+
+  <!-- Node 4: Parent notification (envelope) -->
+  <rect x="450" y="140" width="60" height="80" rx="4" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <!-- Envelope -->
+  <rect x="460" y="165" width="40" height="28" rx="2" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <path d="M460 165 L480 180 L500 165" stroke="#1A1A1A" stroke-width="1.5" fill="none"/>
+  <path d="M460 193 L480 178 L500 193" stroke="#1A1A1A" stroke-width="1.5" fill="none"/>
+  <!-- Notification dot -->
+  <circle cx="495" cy="160" r="6" fill="#F27B6A"/>
+
+  <!-- Labels below -->
+  <text x="100" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Student</text>
+  <text x="240" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Attendance</text>
+  <text x="360" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Grades</text>
+  <text x="480" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Notify</text>
+
+  <!-- Thin connecting line across bottom -->
+  <line x1="100" y1="250" x2="480" y2="250" stroke="#1A1A1A" stroke-width="0.5" opacity="0.1" stroke-dasharray="4 4"/>
+
+  <!-- Corner dots -->
+  <circle cx="50" cy="120" r="4" fill="#F27B6A" opacity="0.4"/>
+  <circle cx="550" cy="120" r="3" fill="#7C5CFC" opacity="0.4"/>
+  <circle cx="50" cy="320" r="3" fill="#7C5CFC" opacity="0.3"/>
+</svg>

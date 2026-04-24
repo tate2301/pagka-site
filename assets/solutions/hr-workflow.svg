@@ -1,0 +1,71 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Flat Vector HR Workflow — People → clock → payroll → disbursement -->
+
+  <!-- Node 1: People / directory (charcoal) -->
+  <circle cx="100" cy="180" r="45" fill="none" stroke="#1A1A1A" stroke-width="1.5" opacity="0.12"/>
+  <circle cx="100" cy="180" r="38" fill="#1A1A1A" opacity="0.04"/>
+  <!-- Person 1 -->
+  <circle cx="90" cy="168" r="8" fill="#1A1A1A" opacity="0.6"/>
+  <path d="M78 190 Q90 178 102 190" stroke="#1A1A1A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Person 2 -->
+  <circle cx="115" cy="172" r="6" fill="#1A1A1A" opacity="0.4"/>
+  <path d="M106 188 Q115 180 124 188" stroke="#1A1A1A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Flow line -->
+  <line x1="150" y1="180" x2="190" y2="180" stroke="#7C5CFC" stroke-width="2"/>
+  <polygon points="190,180 182,175 182,185" fill="#7C5CFC"/>
+
+  <!-- Node 2: Clock / attendance (violet) -->
+  <circle cx="240" cy="180" r="45" fill="none" stroke="#7C5CFC" stroke-width="2"/>
+  <circle cx="240" cy="180" r="38" fill="#7C5CFC" opacity="0.06"/>
+  <!-- Clock face -->
+  <circle cx="240" cy="180" r="22" fill="none" stroke="#7C5CFC" stroke-width="1.5"/>
+  <line x1="240" y1="180" x2="240" y2="166" stroke="#7C5CFC" stroke-width="2" stroke-linecap="round"/>
+  <line x1="240" y1="180" x2="252" y2="186" stroke="#7C5CFC" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Tick marks -->
+  <line x1="240" y1="154" x2="240" y2="158" stroke="#7C5CFC" stroke-width="1"/>
+  <line x1="240" y1="202" x2="240" y2="206" stroke="#7C5CFC" stroke-width="1"/>
+  <line x1="218" y1="180" x2="222" y2="180" stroke="#7C5CFC" stroke-width="1"/>
+  <line x1="258" y1="180" x2="262" y2="180" stroke="#7C5CFC" stroke-width="1"/>
+
+  <!-- Flow line -->
+  <line x1="290" y1="180" x2="330" y2="180" stroke="#7C5CFC" stroke-width="2"/>
+  <polygon points="330,180 322,175 322,185" fill="#7C5CFC"/>
+
+  <!-- Node 3: Payroll / calculator (coral card) -->
+  <rect x="350" y="140" width="60" height="80" rx="4" fill="none" stroke="#F27B6A" stroke-width="2"/>
+  <rect x="358" y="150" width="44" height="18" rx="2" fill="#F27B6A" opacity="0.08"/>
+  <rect x="362" y="158" width="25" height="3" rx="1" fill="#F27B6A" opacity="0.3"/>
+  <!-- Buttons -->
+  <rect x="358" y="176" width="10" height="10" rx="1" fill="#F27B6A" opacity="0.2"/>
+  <rect x="372" y="176" width="10" height="10" rx="1" fill="#F27B6A" opacity="0.2"/>
+  <rect x="386" y="176" width="10" height="10" rx="1" fill="#F27B6A" opacity="0.4"/>
+  <rect x="358" y="190" width="10" height="10" rx="1" fill="#F27B6A" opacity="0.2"/>
+  <rect x="372" y="190" width="10" height="10" rx="1" fill="#F27B6A" opacity="0.2"/>
+  <rect x="386" y="190" width="10" height="10" rx="1" fill="#F27B6A" opacity="0.4"/>
+  <rect x="358" y="204" width="24" height="10" rx="1" fill="#F27B6A" opacity="0.3"/>
+
+  <!-- Flow line -->
+  <line x1="415" y1="180" x2="455" y2="180" stroke="#7C5CFC" stroke-width="2"/>
+  <polygon points="455,180 447,175 447,185" fill="#7C5CFC"/>
+
+  <!-- Node 4: Disbursement / money (violet circle) -->
+  <circle cx="510" cy="180" r="40" fill="none" stroke="#7C5CFC" stroke-width="2"/>
+  <circle cx="510" cy="180" r="34" fill="#7C5CFC" opacity="0.06"/>
+  <!-- Dollar symbol -->
+  <text x="510" y="188" text-anchor="middle" fill="#7C5CFC" font-family="Inter, sans-serif" font-size="24" font-weight="700">$</text>
+
+  <!-- Labels -->
+  <text x="100" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Staff</text>
+  <text x="240" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Clock In</text>
+  <text x="380" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Payroll</text>
+  <text x="510" y="270" text-anchor="middle" fill="#1A1A1A" font-family="Inter, sans-serif" font-size="12" font-weight="600">Paid</text>
+
+  <!-- Bottom line -->
+  <line x1="100" y1="250" x2="510" y2="250" stroke="#1A1A1A" stroke-width="0.5" opacity="0.1" stroke-dasharray="4 4"/>
+
+  <!-- Corner dots -->
+  <circle cx="50" cy="120" r="4" fill="#F27B6A" opacity="0.4"/>
+  <circle cx="550" cy="120" r="3" fill="#7C5CFC" opacity="0.4"/>
+  <circle cx="50" cy="320" r="3" fill="#7C5CFC" opacity="0.3"/>
+</svg>
