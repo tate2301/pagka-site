@@ -1,81 +1,87 @@
 <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <!-- Background grid -->
-  <defs>
-    <pattern id="dotGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#1A1A1A" opacity="0.08"/>
-    </pattern>
-    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F27B6A" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#F27B6A" stop-opacity="0.05"/>
-    </linearGradient>
-    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7C5CFC" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#7C5CFC" stop-opacity="0.05"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="40" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-  </defs>
+  <!-- 3D Isometric Dashboard Blocks — Vercel style, clean geometric depth -->
   
-  <!-- Base grid -->
-  <rect width="800" height="600" fill="url(#dotGrid)"/>
+  <!-- Isometric base grid dots -->
+  <g opacity="0.12">
+    <circle cx="100" cy="500" r="2" fill="#1A1A1A"/>
+    <circle cx="140" cy="500" r="2" fill="#1A1A1A"/>
+    <circle cx="180" cy="500" r="2" fill="#1A1A1A"/>
+    <circle cx="220" cy="500" r="2" fill="#1A1A1A"/>
+    <circle cx="260" cy="500" r="2" fill="#1A1A1A"/>
+    <circle cx="120" cy="520" r="2" fill="#1A1A1A"/>
+    <circle cx="160" cy="520" r="2" fill="#1A1A1A"/>
+    <circle cx="200" cy="520" r="2" fill="#1A1A1A"/>
+    <circle cx="240" cy="520" r="2" fill="#1A1A1A"/>
+    <circle cx="140" cy="540" r="2" fill="#1A1A1A"/>
+    <circle cx="180" cy="540" r="2" fill="#1A1A1A"/>
+    <circle cx="220" cy="540" r="2" fill="#1A1A1A"/>
+  </g>
   
-  <!-- Large geometric shapes -->
-  <!-- Main coral circle -->
-  <circle cx="550" cy="250" r="200" fill="url(#coralGrad)" filter="url(#glow)"/>
+  <!-- Block 1: Main dashboard panel (charcoal, back-left) -->
+  <!-- Top face -->
+  <path d="M200 220 L320 160 L440 220 L320 280Z" fill="#262626" stroke="#1A1A1A" stroke-width="1.5"/>
+  <!-- Left face -->
+  <path d="M200 220 L200 340 L320 400 L320 280Z" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1.5"/>
+  <!-- Right face -->
+  <path d="M320 280 L320 400 L440 340 L440 220Z" fill="#333333" stroke="#1A1A1A" stroke-width="1.5"/>
   
-  <!-- Violet accent -->
-  <circle cx="650" cy="400" r="150" fill="url(#violetGrad)" filter="url(#glow)"/>
+  <!-- UI lines on top face -->
+  <rect x="240" y="200" width="80" height="6" rx="1" fill="#F27B6A" transform="skewX(-30)"/>
+  <rect x="240" y="215" width="140" height="4" rx="1" fill="#FFFFFF" opacity="0.4" transform="skewX(-30)"/>
+  <rect x="240" y="225" width="120" height="4" rx="1" fill="#FFFFFF" opacity="0.25" transform="skewX(-30)"/>
   
-  <!-- Charcoal geometric shape (Corelith "pebble" concept) -->
-  <path d="M 450 180 
-           C 450 120, 520 100, 580 130
-           C 640 160, 660 220, 620 280
-           C 580 340, 500 320, 460 280
-           C 420 240, 420 200, 450 180Z" 
-        fill="#1A1A1A" opacity="0.9"/>
+  <!-- Block 2: Coral accent block (front-left, smaller) -->
+  <path d="M160 360 L220 330 L280 360 L220 390Z" fill="#F27B6A" stroke="#E56A5A" stroke-width="1.5"/>
+  <path d="M160 360 L160 400 L220 430 L220 390Z" fill="#E56A5A" stroke="#E56A5A" stroke-width="1.5"/>
+  <path d="M220 390 L220 430 L280 400 L280 360Z" fill="#F27B6A" stroke="#E56A5A" stroke-width="1.5"/>
+  <!-- Mini chart on coral block -->
+  <path d="M185 365 L200 358 L215 368 L230 352" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="200" cy="358" r="2.5" fill="#FFFFFF"/>
+  <circle cx="215" cy="368" r="2.5" fill="#FFFFFF"/>
+  <circle cx="230" cy="352" r="2.5" fill="#FFFFFF"/>
   
-  <!-- UI Card mockup 1 -->
-  <rect x="480" y="160" width="200" height="140" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1"/>
-  <rect x="495" y="175" width="80" height="8" rx="4" fill="#F27B6A" opacity="0.3"/>
-  <rect x="495" y="190" width="170" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
-  <rect x="495" y="202" width="140" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
-  <rect x="495" y="214" width="160" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
-  <!-- Chart line -->
-  <path d="M 495 250 L 520 240 L 545 255 L 570 230 L 595 245 L 620 220 L 645 235 L 670 215" 
-        stroke="#F27B6A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Chart dots -->
-  <circle cx="520" cy="240" r="3" fill="#F27B6A"/>
-  <circle cx="570" cy="230" r="3" fill="#F27B6A"/>
-  <circle cx="620" cy="220" r="3" fill="#F27B6A"/>
-  <circle cx="670" cy="215" r="3" fill="#F27B6A"/>
+  <!-- Block 3: Violet block (front-right, medium) -->
+  <path d="M380 300 L460 260 L540 300 L460 340Z" fill="#7C5CFC" stroke="#6B4BE8" stroke-width="1.5"/>
+  <path d="M380 300 L380 360 L460 400 L460 340Z" fill="#6B4BE8" stroke="#6B4BE8" stroke-width="1.5"/>
+  <path d="M460 340 L460 400 L540 360 L540 300Z" fill="#7C5CFC" stroke="#6B4BE8" stroke-width="1.5"/>
+  <!-- Bar chart on violet block -->
+  <rect x="410" y="305" width="12" height="20" rx="1" fill="#FFFFFF" opacity="0.6" transform="skewX(-30)"/>
+  <rect x="430" y="295" width="12" height="30" rx="1" fill="#FFFFFF" opacity="0.8" transform="skewX(-30)"/>
+  <rect x="450" y="285" width="12" height="40" rx="1" fill="#FFFFFF" transform="skewX(-30)"/>
   
-  <!-- UI Card mockup 2 (offset) -->
-  <rect x="520" y="320" width="180" height="120" rx="8" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" opacity="0.9"/>
-  <rect x="535" y="335" width="60" height="8" rx="4" fill="#7C5CFC" opacity="0.3"/>
-  <rect x="535" y="350" width="150" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
-  <rect x="535" y="362" width="130" height="6" rx="3" fill="#1A1A1A" opacity="0.1"/>
-  <!-- Bar chart -->
-  <rect x="540" y="390" width="20" height="30" rx="2" fill="#7C5CFC" opacity="0.4"/>
-  <rect x="570" y="380" width="20" height="40" rx="2" fill="#7C5CFC" opacity="0.6"/>
-  <rect x="600" y="370" width="20" height="50" rx="2" fill="#7C5CFC" opacity="0.8"/>
-  <rect x="630" y="360" width="20" height="60" rx="2" fill="#7C5CFC"/>
+  <!-- Block 4: White floating card (mid-right) -->
+  <path d="M480 200 L560 160 L640 200 L560 240Z" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1.5"/>
+  <path d="M480 200 L480 240 L560 280 L560 240Z" fill="#F5F3EF" stroke="#E5E5E5" stroke-width="1.5"/>
+  <path d="M560 240 L560 280 L640 240 L640 200Z" fill="#FAF9F7" stroke="#E5E5E5" stroke-width="1.5"/>
+  <!-- Card content -->
+  <rect x="510" y="185" width="50" height="5" rx="1" fill="#F27B6A" transform="skewX(-30)"/>
+  <rect x="510" y="195" width="70" height="3" rx="1" fill="#1A1A1A" opacity="0.15" transform="skewX(-30)"/>
+  <rect x="510" y="202" width="60" height="3" rx="1" fill="#1A1A1A" opacity="0.1" transform="skewX(-30)"/>
   
-  <!-- Small accent shapes -->
-  <circle cx="420" cy="200" r="8" fill="#F27B6A" opacity="0.6"/>
-  <circle cx="680" cy="300" r="6" fill="#7C5CFC" opacity="0.5"/>
-  <circle cx="460" cy="380" r="10" fill="#F27B6A" opacity="0.3"/>
+  <!-- Block 5: Small coral cube (floating accent) -->
+  <path d="M620 280 L650 265 L680 280 L650 295Z" fill="#F27B6A" stroke="#E56A5A" stroke-width="1"/>
+  <path d="M620 280 L620 300 L650 315 L650 295Z" fill="#E56A5A" stroke="#E56A5A" stroke-width="1"/>
+  <path d="M650 295 L650 315 L680 300 L680 280Z" fill="#F27B6A" stroke="#E56A5A" stroke-width="1"/>
   
-  <!-- Connection lines (network effect) -->
-  <line x1="580" y1="230" x2="620" y2="380" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="4 4"/>
-  <line x1="580" y1="230" x2="450" y2="200" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- Connection lines between blocks — thin, dashed, architectural -->
+  <line x1="280" y1="360" x2="380" y2="300" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="6 4" opacity="0.2"/>
+  <line x1="440" y1="280" x2="480" y2="200" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="6 4" opacity="0.2"/>
+  <line x1="540" y1="300" x2="620" y2="280" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="6 4" opacity="0.15"/>
   
-  <!-- Floating badge -->
-  <rect x="430" y="280" width="100" height="32" rx="16" fill="#F27B6A"/>
-  <text x="480" y="301" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="12" font-weight="600">+24% Growth</text>
+  <!-- Floating label badges — sharp, no blur -->
+  <rect x="580" y="140" width="90" height="28" rx="4" fill="#F27B6A"/>
+  <text x="625" y="159" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="11" font-weight="600">+24% Growth</text>
   
-  <!-- Another floating badge -->
-  <rect x="620" y="150" width="90" height="28" rx="14" fill="#7C5CFC"/>
-  <text x="665" y="169" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="11" font-weight="600">Live Data</text>
+  <rect x="130" y="290" width="80" height="24" rx="4" fill="#7C5CFC"/>
+  <text x="170" y="307" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="10" font-weight="600">Live Sync</text>
+  
+  <!-- Small geometric accent shapes — crisp circles, no blur -->
+  <circle cx="680" cy="180" r="8" fill="#F27B6A" opacity="0.3"/>
+  <circle cx="700" cy="200" r="5" fill="#7C5CFC" opacity="0.4"/>
+  <circle cx="150" cy="180" r="6" fill="#7C5CFC" opacity="0.25"/>
+  <circle cx="120" cy="210" r="4" fill="#F27B6A" opacity="0.35"/>
+  
+  <!-- Thin grid lines in background -->
+  <line x1="50" y1="450" x2="750" y2="450" stroke="#1A1A1A" stroke-width="0.5" opacity="0.06"/>
+  <line x1="50" y1="480" x2="750" y2="480" stroke="#1A1A1A" stroke-width="0.5" opacity="0.06"/>
 </svg>
