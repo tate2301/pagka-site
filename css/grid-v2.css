@@ -296,7 +296,7 @@ body {
   border-color: var(--charcoal);
 }
 
-/* ---- Hero ---- */
+/* ---- Hero (Light, no dark conflict) ---- */
 .hero {
   position: relative;
   min-height: 100vh;
