@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Storefront -->
+  <rect x="140" y="80" width="220" height="160" rx="12" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  <rect x="155" y="95" width="120" height="6" rx="3" fill="#1A1A1A"/>
+  <rect x="155" y="110" width="80" height="3" rx="1.5" fill="#737373"/>
+  
+  <!-- Window / display -->
+  <rect x="155" y="130" width="90" height="90" rx="8" fill="#F5F3EF" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="165" y="142" width="50" height="40" rx="4" fill="white"/>
+  <rect x="172" y="150" width="30" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="172" y="158" width="20" height="3" rx="1.5" fill="#737373"/>
+  <rect x="172" y="166" width="25" height="3" rx="1.5" fill="#737373"/>
+  <rect x="165" y="188" width="70" height="24" rx="4" fill="white"/>
+  <rect x="172" y="196" width="50" height="3" rx="1.5" fill="#1A1A1A"/>
+  <rect x="172" y="204" width="40" height="3" rx="1.5" fill="#737373"/>
+
+  <!-- Door -->
+  <rect x="260" y="130" width="80" height="90" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <circle cx="325" cy="175" r="5" fill="#1A1A1A" opacity="0.2"/>
+  <rect x="270" y="150" width="50" height="3" rx="1.5" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="270" y="160" width="40" height="3" rx="1.5" fill="#737373"/>
+  <rect x="270" y="170" width="30" height="3" rx="1.5" fill="#737373"/>
+
+  <!-- POS terminal inside -->
+  <rect x="150" y="200" width="50" height="30" rx="4" fill="#F27B6A" opacity="0.15"/>
+  <rect x="158" y="208" width="20" height="4" rx="2" fill="#F27B6A"/>
+  <rect x="158" y="218" width="15" height="3" rx="1.5" fill="#F27B6A" opacity="0.7"/>
+
+  <!-- Stock items floating around -->
+  <rect x="80" y="120" width="50" height="50" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="90" y="132" width="25" height="25" rx="4" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="102" cy="144" r="6" fill="#F27B6A" opacity="0.3"/>
+  <rect x="90" y="165" width="30" height="3" rx="1.5" fill="#1A1A1A"/>
+
+  <rect x="380" y="100" width="50" height="50" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="390" y="112" width="25" height="25" rx="4" fill="#7C5CFC" opacity="0.15"/>
+  <circle cx="402" cy="124" r="6" fill="#7C5CFC" opacity="0.3"/>
+  <rect x="390" y="145" width="30" height="3" rx="1.5" fill="#1A1A1A"/>
+
+  <rect x="400" y="200" width="50" height="50" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="410" y="212" width="25" height="25" rx="4" fill="#1A1A1A" opacity="0.1"/>
+  <circle cx="422" cy="224" r="6" fill="#1A1A1A" opacity="0.2"/>
+  <rect x="410" y="245" width="30" height="3" rx="1.5" fill="#1A1A1A"/>
+
+  <!-- Inventory count badge -->
+  <rect x="80" y="200" width="60" height="36" rx="8" fill="white" stroke="#F27B6A" stroke-width="1.5"/>
+  <circle cx="95" cy="218" r="8" fill="#F27B6A" opacity="0.2"/>
+  <rect x="110" y="212" width="20" height="4" rx="2" fill="#F27B6A"/>
+  <rect x="110" y="222" width="15" height="3" rx="1.5" fill="#F27B6A" opacity="0.7"/>
+
+  <!-- Sales graph -->
+  <rect x="340" y="260" width="120" height="80" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="355" y="272" width="50" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="355" y="290" width="12" height="25" rx="6" fill="#F27B6A" opacity="0.4"/>
+  <rect x="372" y="280" width="12" height="35" rx="6" fill="#F27B6A" opacity="0.6"/>
+  <rect x="389" y="270" width="12" height="45" rx="6" fill="#F27B6A"/>
+  <rect x="406" y="285" width="12" height="30" rx="6" fill="#7C5CFC" opacity="0.5"/>
+  <rect x="423" y="295" width="12" height="20" rx="6" fill="#F27B6A" opacity="0.3"/>
+
+  <!-- WhatsApp float (bottom left) -->
+  <rect x="60" y="300" width="70" height="36" rx="18" fill="#F27B6A"/>
+  <circle cx="78" cy="318" r="8" fill="white" opacity="0.3"/>
+  <rect x="90" y="314" width="25" height="4" rx="2" fill="white"/>
+  <rect x="90" y="322" width="15" height="3" rx="1.5" fill="white" opacity="0.7"/>
+
+  <!-- Connecting lines -->
+  <line x1="135" y1="145" x2="140" y2="145" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="370" y1="125" x2="360" y2="130" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="390" y1="250" x2="360" y2="240" stroke="#E5E5E5" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Floating elements -->
+  <circle cx="50" cy="80" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="450" cy="60" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="470" cy="320" r="8" fill="#F27B6A" opacity="0.2"/>
+  <circle cx="180" cy="350" r="6" fill="#7C5CFC" opacity="0.15"/>
+</svg>
