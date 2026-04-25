@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <!-- Phone frame -->
+  <rect x="280" y="40" width="240" height="380" rx="24" fill="#1A1A1A" stroke="#2A2A2A" stroke-width="2"/>
+  <rect x="290" y="55" width="220" height="350" rx="16" fill="white"/>
+  
+  <!-- Status bar -->
+  <rect x="290" y="55" width="220" height="28" rx="16" fill="white"/>
+  <rect x="310" y="67" width="30" height="4" rx="2" fill="#1A1A1A"/>
+  <circle cx="490" cy="69" r="3" fill="#1A1A1A"/>
+  <circle cx="500" cy="69" r="3" fill="#1A1A1A"/>
+  
+  <!-- App header -->
+  <rect x="310" y="95" width="180" height="24" rx="4" fill="none" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="320" y="103" width="60" height="6" rx="3" fill="#F27B6A"/>
+  <circle cx="470" cy="107" r="6" fill="#F27B6A" opacity="0.2"/>
+  
+  <!-- Search bar -->
+  <rect x="310" y="130" width="180" height="32" rx="8" fill="#F5F3EF"/>
+  <circle cx="325" cy="146" r="4" stroke="#737373" stroke-width="1.5"/>
+  <rect x="330" y="147" width="8" height="1.5" rx="0.75" fill="#737373" transform="rotate(45 334 148)"/>
+  <rect x="340" y="143" width="80" height="4" rx="2" fill="#737373"/>
+
+  <!-- Stock item cards -->
+  <!-- Item 1 -->
+  <rect x="310" y="175" width="180" height="56" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="320" y="185" width="36" height="36" rx="6" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="338" cy="203" r="8" fill="#F27B6A" opacity="0.3"/>
+  <rect x="365" y="190" width="80" height="5" rx="2.5" fill="#1A1A1A"/>
+  <rect x="365" y="202" width="60" height="3" rx="1.5" fill="#737373"/>
+  <rect x="365" y="212" width="40" height="4" rx="2" fill="#F27B6A" opacity="0.5"/>
+  <circle cx="470" cy="203" r="8" fill="none" stroke="#E5E5E5" stroke-width="1.5"/>
+  <path d="M 466 203 L 470 207 L 474 199" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Item 2 -->
+  <rect x="310" y="240" width="180" height="56" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="320" y="250" width="36" height="36" rx="6" fill="#7C5CFC" opacity="0.15"/>
+  <circle cx="338" cy="268" r="8" fill="#7C5CFC" opacity="0.3"/>
+  <rect x="365" y="255" width="80" height="5" rx="2.5" fill="#1A1A1A"/>
+  <rect x="365" y="267" width="60" height="3" rx="1.5" fill="#737373"/>
+  <rect x="365" y="277" width="40" height="4" rx="2" fill="#7C5CFC" opacity="0.5"/>
+  <circle cx="470" cy="268" r="8" fill="none" stroke="#E5E5E5" stroke-width="1.5"/>
+  <path d="M 466 268 L 470 272 L 474 264" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Item 3 -->
+  <rect x="310" y="305" width="180" height="56" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="320" y="315" width="36" height="36" rx="6" fill="#1A1A1A" opacity="0.08"/>
+  <circle cx="338" cy="333" r="8" fill="#1A1A1A" opacity="0.15"/>
+  <rect x="365" y="320" width="80" height="5" rx="2.5" fill="#1A1A1A"/>
+  <rect x="365" y="332" width="60" height="3" rx="1.5" fill="#737373"/>
+  <rect x="365" y="342" width="40" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <circle cx="470" cy="333" r="8" fill="none" stroke="#E5E5E5" stroke-width="1.5"/>
+  <path d="M 466 333 L 470 337 L 474 329" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom nav -->
+  <rect x="290" y="375" width="220" height="30" rx="0" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <circle cx="330" cy="390" r="5" fill="#F27B6A"/>
+  <rect x="355" y="388" width="16" height="4" rx="2" fill="#737373"/>
+  <rect x="385" y="388" width="16" height="4" rx="2" fill="#737373"/>
+  <rect x="415" y="388" width="16" height="4" rx="2" fill="#737373"/>
+  <rect x="445" y="388" width="16" height="4" rx="2" fill="#737373"/>
+
+  <!-- Floating context labels -->
+  <!-- "Offline mode active" label left -->
+  <rect x="60" y="180" width="140" height="32" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <circle cx="80" cy="196" r="6" fill="#F27B6A"/>
+  <rect x="95" y="192" width="80" height="4" rx="2" fill="#1A1A1A"/>
+  <path d="M 200 196 L 280 200" stroke="#F27B6A" stroke-width="1" stroke-dasharray="3 3"/>
+  
+  <!-- "Works on any phone" label right -->
+  <rect x="580" y="180" width="140" height="32" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <circle cx="600" cy="196" r="6" fill="#7C5CFC"/>
+  <rect x="615" y="192" width="80" height="4" rx="2" fill="#1A1A1A"/>
+  <path d="M 520 200 L 570 196" stroke="#7C5CFC" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- "Instant sync" label top -->
+  <rect x="340" y="10" width="120" height="28" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <circle cx="355" cy="24" r="5" fill="#F27B6A"/>
+  <rect x="368" y="21" width="70" height="4" rx="2" fill="#1A1A1A"/>
+  <path d="M 400 38 L 400 50" stroke="#F27B6A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Decorative elements -->
+  <circle cx="40" cy="280" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="750" cy="100" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="720" cy="320" r="8" fill="#F27B6A" opacity="0.2"/>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" fill="none">
+  <!-- Desktop screen frame -->
+  <rect x="100" y="30" width="500" height="340" rx="12" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  <rect x="100" y="30" width="500" height="24" rx="12" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="120" cy="42" r="4" fill="#F27B6A" opacity="0.3"/>
+  <circle cx="132" cy="42" r="4" fill="#7C5CFC" opacity="0.3"/>
+  <circle cx="144" cy="42" r="4" fill="#1A1A1A" opacity="0.1"/>
+
+  <!-- Title -->
+  <rect x="130" y="72" width="120" height="6" rx="3" fill="#1A1A1A"/>
+  <rect x="130" y="84" width="80" height="3" rx="1.5" fill="#737373"/>
+
+  <!-- Form fields -->
+  <!-- Buyer name -->
+  <rect x="130" y="110" width="200" height="36" rx="8" fill="#F5F3EF"/>
+  <rect x="145" y="120" width="100" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="145" y="128" width="60" height="3" rx="1.5" fill="#737373" opacity="0.5"/>
+  <rect x="310" y="115" width="24" height="24" rx="6" fill="#F27B6A" opacity="0.15"/>
+  <path d="M 318 123 L 322 127 L 326 121" stroke="#F27B6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ID Number -->
+  <rect x="350" y="110" width="200" height="36" rx="8" fill="#F5F3EF"/>
+  <rect x="365" y="120" width="100" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="365" y="128" width="60" height="3" rx="1.5" fill="#737373" opacity="0.5"/>
+
+  <!-- Weight -->
+  <rect x="130" y="160" width="140" height="36" rx="8" fill="#F5F3EF"/>
+  <rect x="145" y="170" width="80" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="145" y="178" width="50" height="3" rx="1.5" fill="#737373" opacity="0.5"/>
+  <rect x="250" y="165" width="24" height="24" rx="6" fill="#F27B6A" opacity="0.15"/>
+  <path d="M 258 173 L 262 177 L 266 171" stroke="#F27B6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Gold purity -->
+  <rect x="290" y="160" width="140" height="36" rx="8" fill="#F5F3EF"/>
+  <rect x="305" y="170" width="80" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="305" y="178" width="50" height="3" rx="1.5" fill="#737373" opacity="0.5"/>
+
+  <!-- Price auto-calc -->
+  <rect x="450" y="160" width="100" height="36" rx="8" fill="#F5F3EF" stroke="#F27B6A" stroke-width="1"/>
+  <rect x="465" y="170" width="60" height="4" rx="2" fill="#F27B6A" opacity="0.5"/>
+  <rect x="465" y="178" width="40" height="3" rx="1.5" fill="#F27B6A" opacity="0.7"/>
+
+  <!-- Scale indicator (animated feel) -->
+  <rect x="130" y="215" width="420" height="4" rx="2" fill="#E5E5E5"/>
+  <rect x="130" y="215" width="280" height="4" rx="2" fill="#F27B6A"/>
+  <circle cx="410" cy="217" r="6" fill="#F27B6A"/>
+  <rect x="130" y="228" width="80" height="3" rx="1.5" fill="#737373"/>
+
+  <!-- Transaction log (bottom) -->
+  <rect x="130" y="250" width="420" height="90" rx="8" fill="#F5F3EF"/>
+  <rect x="145" y="262" width="100" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="145" y="272" width="80" height="3" rx="1.5" fill="#737373"/>
+  
+  <!-- Log entries -->
+  <rect x="145" y="292" width="380" height="8" rx="4" fill="white"/>
+  <rect x="150" y="294" width="40" height="4" rx="2" fill="#737373"/>
+  <rect x="200" y="294" width="80" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="300" y="294" width="60" height="4" rx="2" fill="#F27B6A" opacity="0.5"/>
+  <rect x="380" y="294" width="50" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  
+  <rect x="145" y="308" width="380" height="8" rx="4" fill="white"/>
+  <rect x="150" y="310" width="40" height="4" rx="2" fill="#737373"/>
+  <rect x="200" y="310" width="80" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="300" y="310" width="60" height="4" rx="2" fill="#7C5CFC" opacity="0.5"/>
+  <rect x="380" y="310" width="50" height="4" rx="2" fill="#1A1A1A" opacity="0.3"/>
+
+  <!-- ZIMRA compliance badge (floating) -->
+  <rect x="560" y="120" width="100" height="48" rx="8" fill="white" stroke="#F27B6A" stroke-width="1.5"/>
+  <circle cx="580" cy="144" r="10" fill="#F27B6A" opacity="0.2"/>
+  <path d="M 574 144 L 578 148 L 586 140" stroke="#F27B6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="595" y="138" width="45" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="595" y="148" width="35" height="3" rx="1.5" fill="#737373"/>
+  <path d="M 550 144 L 555 144" stroke="#F27B6A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Audit trail badge (floating) -->
+  <rect x="30" y="200" width="100" height="48" rx="8" fill="white" stroke="#7C5CFC" stroke-width="1.5"/>
+  <circle cx="50" cy="224" r="10" fill="#7C5CFC" opacity="0.2"/>
+  <path d="M 44 224 L 48 228 L 56 220" stroke="#7C5CFC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="65" y="218" width="45" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="65" y="228" width="35" height="3" rx="1.5" fill="#737373"/>
+  <path d="M 130 224 L 125 224" stroke="#7C5CFC" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Floating elements -->
+  <circle cx="50" cy="100" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="640" cy="80" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="660" cy="280" r="8" fill="#F27B6A" opacity="0.2"/>
+</svg>
