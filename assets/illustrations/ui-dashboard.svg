@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" fill="none">
+  <!-- Card container -->
+  <rect width="280" height="200" rx="12" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <!-- Shadow -->
+  <rect x="4" y="4" width="280" height="200" rx="12" fill="rgba(26,26,26,0.06)" style="mix-blend-mode: multiply;" opacity="0.5"/>
+
+  <!-- Header -->
+  <rect x="20" y="16" width="100" height="8" rx="4" fill="#1A1A1A"/>
+  <circle cx="244" cy="20" r="6" fill="#F5F3EF" stroke="#E5E5E5" stroke-width="1"/>
+  <circle cx="260" cy="20" r="6" fill="#F5F3EF" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Data rows -->
+  <!-- Row 1 -->
+  <circle cx="32" cy="50" r="5" fill="#F27B6A"/>
+  <rect x="46" y="47" width="80" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="46" y="55" width="60" height="3" rx="1.5" fill="#737373"/>
+  <rect x="210" y="48" width="50" height="6" rx="3" fill="#F5F3EF"/>
+  <rect x="215" y="50" width="25" height="2" rx="1" fill="#1A1A1A"/>
+
+  <!-- Row 2 -->
+  <circle cx="32" cy="82" r="5" fill="#7C5CFC"/>
+  <rect x="46" y="79" width="70" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="46" y="87" width="55" height="3" rx="1.5" fill="#737373"/>
+  <rect x="210" y="80" width="50" height="6" rx="3" fill="#F5F3EF"/>
+  <rect x="215" y="82" width="20" height="2" rx="1" fill="#1A1A1A"/>
+
+  <!-- Row 3 (highlighted) -->
+  <rect x="16" y="104" width="248" height="32" rx="6" fill="#F5F3EF"/>
+  <circle cx="32" cy="120" r="5" fill="#F27B6A"/>
+  <rect x="46" y="117" width="90" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="46" y="125" width="65" height="3" rx="1.5" fill="#737373"/>
+  <rect x="210" y="118" width="50" height="6" rx="3" fill="white" stroke="#F27B6A" stroke-width="1"/>
+  <rect x="215" y="120" width="30" height="2" rx="1" fill="#F27B6A"/>
+
+  <!-- Row 4 -->
+  <circle cx="32" cy="158" r="5" fill="#1A1A1A" opacity="0.4"/>
+  <rect x="46" y="155" width="75" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="46" y="163" width="50" height="3" rx="1.5" fill="#737373"/>
+  <rect x="210" y="156" width="50" height="6" rx="3" fill="#F5F3EF"/>
+  <rect x="215" y="158" width="22" height="2" rx="1" fill="#1A1A1A"/>
+
+  <!-- Bottom chart -->
+  <rect x="20" y="180" width="240" height="1" rx="0.5" fill="#E5E5E5"/>
+  <rect x="30" y="175" width="16" height="20" rx="4" fill="#F27B6A" opacity="0.5"/>
+  <rect x="52" y="168" width="16" height="27" rx="4" fill="#F27B6A" opacity="0.7"/>
+  <rect x="74" y="160" width="16" height="35" rx="4" fill="#F27B6A"/>
+  <rect x="96" y="165" width="16" height="30" rx="4" fill="#F27B6A" opacity="0.6"/>
+  <rect x="118" y="170" width="16" height="25" rx="4" fill="#7C5CFC" opacity="0.4"/>
+  <rect x="140" y="162" width="16" height="33" rx="4" fill="#F27B6A" opacity="0.8"/>
+  <rect x="162" y="155" width="16" height="40" rx="4" fill="#F27B6A"/>
+  <rect x="184" y="167" width="16" height="28" rx="4" fill="#7C5CFC" opacity="0.5"/>
+  <rect x="206" y="172" width="16" height="23" rx="4" fill="#F27B6A" opacity="0.4"/>
+  <rect x="228" y="158" width="16" height="37" rx="4" fill="#F27B6A" opacity="0.7"/>
+</svg>

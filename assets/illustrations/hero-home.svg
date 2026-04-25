@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <!-- Background grid lines -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#E5E5E5" stroke-width="0.5" fill="none"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="500" fill="url(#grid)" opacity="0.3"/>
+
+  <!-- Main dashboard card -->
+  <rect x="140" y="80" width="320" height="240" rx="12" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  
+  <!-- Dashboard header -->
+  <rect x="160" y="100" width="120" height="8" rx="4" fill="#1A1A1A"/>
+  <circle cx="420" cy="104" r="6" fill="#F27B6A"/>
+  
+  <!-- Dashboard grid dots -->
+  <circle cx="180" cy="140" r="4" fill="#F27B6A"/>
+  <circle cx="220" cy="140" r="4" fill="#7C5CFC"/>
+  <circle cx="260" cy="140" r="4" fill="#1A1A1A"/>
+  <circle cx="300" cy="140" r="4" fill="#F27B6A"/>
+  <circle cx="340" cy="140" r="4" fill="#7C5CFC"/>
+  <circle cx="380" cy="140" r="4" fill="#1A1A1A"/>
+  <circle cx="420" cy="140" r="4" fill="#F27B6A"/>
+  
+  <circle cx="180" cy="180" r="4" fill="#7C5CFC"/>
+  <circle cx="220" cy="180" r="4" fill="#1A1A1A"/>
+  <circle cx="260" cy="180" r="4" fill="#F27B6A"/>
+  <circle cx="300" cy="180" r="4" fill="#7C5CFC"/>
+  <circle cx="340" cy="180" r="4" fill="#1A1A1A"/>
+  <circle cx="380" cy="180" r="4" fill="#F27B6A"/>
+  <circle cx="420" cy="180" r="4" fill="#7C5CFC"/>
+  
+  <circle cx="180" cy="220" r="4" fill="#1A1A1A"/>
+  <circle cx="220" cy="220" r="4" fill="#F27B6A"/>
+  <circle cx="260" cy="220" r="4" fill="#7C5CFC"/>
+  <circle cx="300" cy="220" r="4" fill="#1A1A1A"/>
+  <circle cx="340" cy="220" r="4" fill="#F27B6A"/>
+  <circle cx="380" cy="220" r="4" fill="#7C5CFC"/>
+  <circle cx="420" cy="220" r="4" fill="#1A1A1A"/>
+  
+  <circle cx="180" cy="260" r="4" fill="#F27B6A"/>
+  <circle cx="220" cy="260" r="4" fill="#1A1A1A"/>
+  <circle cx="260" cy="260" r="4" fill="#F27B6A"/>
+  <circle cx="300" cy="260" r="4" fill="#7C5CFC"/>
+  <circle cx="340" cy="260" r="4" fill="#1A1A1A"/>
+  <circle cx="380" cy="260" r="4" fill="#F27B6A"/>
+  <circle cx="420" cy="260" r="4" fill="#7C5CFC"/>
+
+  <!-- Module card 1 (Stock) -->
+  <rect x="80" y="300" width="140" height="100" rx="10" fill="white" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(-5 150 350)"/>
+  <rect x="100" y="320" width="80" height="6" rx="3" fill="#1A1A1A"/>
+  <rect x="100" y="340" width="60" height="4" rx="2" fill="#737373"/>
+  <rect x="100" y="355" width="70" height="4" rx="2" fill="#737373"/>
+  <rect x="100" y="370" width="50" height="4" rx="2" fill="#F27B6A"/>
+
+  <!-- Module card 2 (Sales) -->
+  <rect x="240" y="340" width="140" height="100" rx="10" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  <rect x="260" y="360" width="80" height="6" rx="3" fill="#1A1A1A"/>
+  <rect x="260" y="380" width="60" height="4" rx="2" fill="#737373"/>
+  <rect x="260" y="395" width="70" height="4" rx="2" fill="#737373"/>
+  <!-- Small chart -->
+  <rect x="350" y="375" width="8" height="30" rx="4" fill="#F27B6A" opacity="0.6"/>
+  <rect x="362" y="365" width="8" height="40" rx="4" fill="#F27B6A"/>
+  <rect x="374" y="385" width="8" height="20" rx="4" fill="#7C5CFC" opacity="0.6"/>
+
+  <!-- Module card 3 (People) -->
+  <rect x="400" y="280" width="140" height="100" rx="10" fill="white" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(5 470 330)"/>
+  <rect x="420" y="300" width="80" height="6" rx="3" fill="#1A1A1A"/>
+  <circle cx="430" cy="330" r="8" fill="#7C5CFC" opacity="0.3"/>
+  <circle cx="450" cy="330" r="8" fill="#F27B6A" opacity="0.3"/>
+  <circle cx="470" cy="330" r="8" fill="#1A1A1A" opacity="0.2"/>
+  <rect x="420" y="355" width="60" height="4" rx="2" fill="#737373"/>
+
+  <!-- Connecting lines between modules and dashboard -->
+  <path d="M 220 300 Q 200 280 260 250" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="4 4" fill="none" opacity="0.4"/>
+  <path d="M 380 300 Q 400 280 340 250" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="4 4" fill="none" opacity="0.4"/>
+  <path d="M 300 340 L 300 320" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="4 4" fill="none" opacity="0.4"/>
+
+  <!-- Floating data points -->
+  <circle cx="100" cy="120" r="10" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="500" cy="180" r="12" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="80" cy="420" r="8" fill="#F27B6A" opacity="0.2"/>
+  <circle cx="520" cy="400" r="10" fill="#7C5CFC" opacity="0.15"/>
+
+  <!-- Corner accent -->
+  <rect x="520" y="100" width="40" height="40" rx="8" fill="none" stroke="#F27B6A" stroke-width="1.5" opacity="0.3"/>
+</svg>

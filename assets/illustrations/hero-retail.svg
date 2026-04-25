@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Counter base -->
+  <rect x="150" y="180" width="200" height="120" rx="12" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  
+  <!-- Counter top -->
+  <rect x="140" y="170" width="220" height="16" rx="8" fill="#F5F3EF" stroke="#1A1A1A" stroke-width="1"/>
+  
+  <!-- Screen/display -->
+  <rect x="180" y="200" width="140" height="70" rx="8" fill="#FAF9F7" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="195" y="215" width="80" height="6" rx="3" fill="#1A1A1A"/>
+  <rect x="195" y="230" width="60" height="4" rx="2" fill="#737373"/>
+  <rect x="195" y="242" width="70" height="4" rx="2" fill="#737373"/>
+  <rect x="195" y="254" width="50" height="4" rx="2" fill="#F27B6A"/>
+
+  <!-- Products scanning in -->
+  <rect x="180" y="100" width="50" height="40" rx="8" fill="white" stroke="#1A1A1A" stroke-width="1" transform="rotate(-15 205 120)"/>
+  <rect x="240" y="90" width="50" height="40" rx="8" fill="white" stroke="#1A1A1A" stroke-width="1" transform="rotate(5 265 110)"/>
+  <rect x="300" y="100" width="50" height="40" rx="8" fill="white" stroke="#1A1A1A" stroke-width="1" transform="rotate(15 325 120)"/>
+  
+  <!-- Product details -->
+  <rect x="195" y="115" width="20" height="3" rx="1.5" fill="#737373" transform="rotate(-15 205 120)"/>
+  <rect x="255" y="105" width="20" height="3" rx="1.5" fill="#737373"/>
+  <rect x="315" y="115" width="20" height="3" rx="1.5" fill="#737373" transform="rotate(15 325 120)"/>
+
+  <!-- Scanning lines -->
+  <path d="M 205 145 L 205 170" stroke="#F27B6A" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M 265 135 L 265 170" stroke="#F27B6A" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M 325 145 L 325 170" stroke="#F27B6A" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Receipt below -->
+  <rect x="200" y="310" width="100" height="60" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="215" y="322" width="70" height="3" rx="1.5" fill="#1A1A1A"/>
+  <rect x="215" y="332" width="50" height="2" rx="1" fill="#737373"/>
+  <rect x="215" y="340" width="55" height="2" rx="1" fill="#737373"/>
+  <rect x="215" y="348" width="45" height="2" rx="1" fill="#737373"/>
+  <rect x="215" y="358" width="30" height="4" rx="2" fill="#F27B6A"/>
+
+  <!-- Checkmarks on receipt -->
+  <circle cx="280" cy="332" r="6" fill="#F27B6A" opacity="0.2"/>
+  <path d="M 277 332 L 279 334 L 283 330" stroke="#F27B6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Sales chart -->
+  <rect x="380" y="240" width="80" height="100" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="395" y="252" width="50" height="4" rx="2" fill="#1A1A1A"/>
+  <!-- Bars -->
+  <rect x="395" y="270" width="10" height="30" rx="5" fill="#F27B6A" opacity="0.4"/>
+  <rect x="410" y="260" width="10" height="40" rx="5" fill="#F27B6A" opacity="0.6"/>
+  <rect x="425" y="250" width="10" height="50" rx="5" fill="#F27B6A"/>
+  <rect x="440" y="265" width="10" height="35" rx="5" fill="#7C5CFC" opacity="0.5"/>
+
+  <!-- Coral pulse at counter center -->
+  <circle cx="250" cy="178" r="12" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="250" cy="178" r="8" fill="#F27B6A" opacity="0.25"/>
+  <circle cx="250" cy="178" r="4" fill="#F27B6A"/>
+
+  <!-- Floating elements -->
+  <circle cx="120" y="150" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="400" y="150" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="130" y="300" r="6" fill="#F27B6A" opacity="0.2"/>
+</svg>

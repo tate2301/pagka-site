@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice" fill="none">
+  <!-- 8px grid lines at 3% opacity white -->
+  <defs>
+    <pattern id="cta-grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" stroke="white" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" fill="url(#cta-grid)"/>
+
+  <!-- Random intersection circles -->
+  <circle cx="200" cy="100" r="6" fill="#F27B6A" opacity="0.08"/>
+  <circle cx="400" cy="200" r="8" fill="#F27B6A" opacity="0.06"/>
+  <circle cx="600" cy="80" r="5" fill="#F27B6A" opacity="0.08"/>
+  <circle cx="800" cy="300" r="7" fill="#F27B6A" opacity="0.06"/>
+  <circle cx="1000" cy="150" r="6" fill="#F27B6A" opacity="0.08"/>
+  <circle cx="300" cy="320" r="8" fill="#F27B6A" opacity="0.05"/>
+  
+  <circle cx="150" cy="250" r="5" fill="#7C5CFC" opacity="0.06"/>
+  <circle cx="500" cy="120" r="7" fill="#7C5CFC" opacity="0.05"/>
+  <circle cx="700" cy="250" r="6" fill="#7C5CFC" opacity="0.06"/>
+  <circle cx="950" cy="280" r="5" fill="#7C5CFC" opacity="0.05"/>
+  <circle cx="1100" cy="100" r="8" fill="#7C5CFC" opacity="0.04"/>
+
+  <!-- Large outlined rounded rectangles -->
+  <rect x="80" y="60" width="120" height="80" rx="12" stroke="white" stroke-width="1" opacity="0.05" transform="rotate(3 140 100)"/>
+  <rect x="350" y="180" width="100" height="100" rx="12" stroke="white" stroke-width="1" opacity="0.04" transform="rotate(-5 400 230)"/>
+  <rect x="650" y="80" width="140" height="90" rx="12" stroke="white" stroke-width="1" opacity="0.05" transform="rotate(2 720 125)"/>
+  <rect x="900" y="200" width="110" height="110" rx="12" stroke="white" stroke-width="1" opacity="0.04" transform="rotate(-3 955 255)"/>
+
+  <!-- Additional scattered circles -->
+  <circle cx="250" cy="180" r="4" fill="white" opacity="0.06"/>
+  <circle cx="450" cy="300" r="5" fill="white" opacity="0.05"/>
+  <circle cx="750" cy="180" r="4" fill="white" opacity="0.06"/>
+  <circle cx="1050" cy="320" r="5" fill="white" opacity="0.05"/>
+  <circle cx="580" cy="320" r="6" fill="white" opacity="0.04"/>
+</svg>
