@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Calendar grid -->
+  <rect x="120" y="80" width="260" height="220" rx="12" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  
+  <!-- Grid header -->
+  <rect x="140" y="100" width="200" height="8" rx="4" fill="#1A1A1A"/>
+  
+  <!-- Grid cells (5x3) -->
+  <!-- Row 1 -->
+  <rect x="140" y="125" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="190" y="125" width="40" height="40" rx="6" fill="#F27B6A" opacity="0.2"/>
+  <rect x="240" y="125" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="290" y="125" width="40" height="40" rx="6" fill="#7C5CFC" opacity="0.15"/>
+  <rect x="340" y="125" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <rect x="140" y="175" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="190" y="175" width="40" height="40" rx="6" fill="#F27B6A" opacity="0.3"/>
+  <rect x="240" y="175" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="290" y="175" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="340" y="175" width="40" height="40" rx="6" fill="#7C5CFC" opacity="0.2"/>
+  
+  <!-- Row 3 -->
+  <rect x="140" y="225" width="40" height="40" rx="6" fill="#7C5CFC" opacity="0.15"/>
+  <rect x="190" y="225" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="240" y="225" width="40" height="40" rx="6" fill="#F27B6A" opacity="0.25"/>
+  <rect x="290" y="225" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="340" y="225" width="40" height="40" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+
+  <!-- Scheduled markers (coral) -->
+  <circle cx="210" cy="145" r="4" fill="#F27B6A"/>
+  <circle cx="210" cy="195" r="4" fill="#F27B6A"/>
+  <circle cx="260" cy="245" r="4" fill="#F27B6A"/>
+  
+  <!-- In-progress markers (violet) -->
+  <circle cx="310" cy="145" r="4" fill="#7C5CFC"/>
+  <circle cx="360" cy="195" r="4" fill="#7C5CFC"/>
+  <circle cx="160" cy="245" r="4" fill="#7C5CFC"/>
+
+  <!-- Wrench (left) -->
+  <rect x="60" y="160" width="40" height="40" rx="8" fill="white" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(-30 80 180)"/>
+  <rect x="70" y="175" width="25" height="6" rx="3" fill="#1A1A1A" transform="rotate(-30 80 180)"/>
+  <circle cx="85" cy="168" r="4" fill="#F27B6A" transform="rotate(-30 80 180)"/>
+
+  <!-- Checklist (right) -->
+  <rect x="400" y="140" width="80" height="120" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="415" y="155" width="50" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="415" y="175" width="40" height="3" rx="1.5" fill="#737373"/>
+  <circle cx="420" cy="205" r="5" fill="#F27B6A"/>
+  <path d="M 417 205 L 420 208 L 423 202" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="430" y="203" width="30" height="3" rx="1.5" fill="#737373"/>
+  <rect x="415" y="225" width="40" height="3" rx="1.5" fill="#737373"/>
+  <circle cx="420" cy="245" r="5" fill="#F27B6A"/>
+  <path d="M 417 245 L 420 248 L 423 242" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="430" y="243" width="30" height="3" rx="1.5" fill="#737373"/>
+  <rect x="415" y="265" width="40" height="3" rx="1.5" fill="#737373"/>
+  <circle cx="420" cy="275" r="5" fill="#E5E5E5"/>
+
+  <!-- Work order flow (top) -->
+  <circle cx="180" cy="60" r="8" fill="#F27B6A" opacity="0.2"/>
+  <circle cx="250" cy="55" r="8" fill="#F27B6A" opacity="0.3"/>
+  <circle cx="320" cy="60" r="8" fill="#F27B6A" opacity="0.2"/>
+  <path d="M 188 60 L 242 55" stroke="#F27B6A" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 258 55 L 312 60" stroke="#F27B6A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Progress dotted line through grid -->
+  <path d="M 140 300 Q 200 310 250 315 Q 300 320 360 305" stroke="#F27B6A" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+
+  <!-- Floating elements -->
+  <circle cx="100" cy="320" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="420" cy="320" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="450" cy="100" r="6" fill="#F27B6A" opacity="0.2"/>
+</svg>

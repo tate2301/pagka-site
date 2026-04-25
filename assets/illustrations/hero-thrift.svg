@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Central circular arrow -->
+  <circle cx="250" cy="200" r="70" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <path d="M 320 200 A 70 70 0 1 1 250 130" stroke="#F27B6A" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M 250 130 L 240 140 M 250 130 L 260 140" stroke="#F27B6A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Left item (for sale) -->
+  <rect x="60" y="160" width="90" height="70" rx="10" fill="white" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(-5 105 195)"/>
+  <rect x="75" y="175" width="50" height="6" rx="3" fill="#1A1A1A" transform="rotate(-5 105 195)"/>
+  <rect x="75" y="190" width="35" height="4" rx="2" fill="#737373" transform="rotate(-5 105 195)"/>
+  <rect x="120" y="150" width="35" height="16" rx="6" fill="#F27B6A" transform="rotate(-5 105 195)"/>
+  <rect x="127" y="156" width="20" height="4" rx="2" fill="white" transform="rotate(-5 105 195)"/>
+
+  <!-- Right item (sold) -->
+  <rect x="350" y="160" width="90" height="70" rx="10" fill="white" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(5 395 195)"/>
+  <rect x="365" y="175" width="50" height="6" rx="3" fill="#1A1A1A" transform="rotate(5 395 195)"/>
+  <rect x="365" y="190" width="35" height="4" rx="2" fill="#737373" transform="rotate(5 395 195)"/>
+  <circle cx="420" cy="180" r="12" fill="#F27B6A" opacity="0.2" transform="rotate(5 395 195)"/>
+  <path d="M 414 180 L 418 184 L 424 176" stroke="#F27B6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="rotate(5 395 195)"/>
+
+  <!-- Price points (bottom) -->
+  <rect x="140" y="320" width="220" height="30" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <circle cx="160" cy="335" r="5" fill="#F27B6A" opacity="0.4"/>
+  <circle cx="200" cy="335" r="5" fill="#F27B6A" opacity="0.6"/>
+  <circle cx="240" cy="335" r="5" fill="#F27B6A"/>
+  <circle cx="280" cy="335" r="5" fill="#7C5CFC" opacity="0.5"/>
+  <circle cx="320" cy="335" r="5" fill="#7C5CFC" opacity="0.3"/>
+
+  <!-- Incoming donations (top) -->
+  <rect x="170" y="80" width="50" height="35" rx="8" fill="white" stroke="#1A1A1A" stroke-width="1" transform="rotate(-8 195 97)"/>
+  <rect x="185" y="90" width="25" height="4" rx="2" fill="#737373" transform="rotate(-8 195 97)"/>
+  <rect x="250" y="70" width="45" height="32" rx="8" fill="white" stroke="#1A1A1A" stroke-width="1"/>
+  <rect x="262" y="80" width="22" height="4" rx="2" fill="#737373"/>
+  <rect x="315" y="80" width="40" height="30" rx="8" fill="white" stroke="#1A1A1A" stroke-width="1" transform="rotate(6 335 95)"/>
+  <rect x="327" y="89" width="20" height="4" rx="2" fill="#737373" transform="rotate(6 335 95)"/>
+
+  <!-- Arrow fill on arrow head -->
+  <circle cx="250" cy="130" r="4" fill="#F27B6A"/>
+
+  <!-- Floating elements -->
+  <circle cx="80" cy="100" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="420" cy="110" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="450" cy="300" r="8" fill="#F27B6A" opacity="0.2"/>
+  <circle cx="100" cy="280" r="6" fill="#7C5CFC" opacity="0.15"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Central hub -->
+  <circle cx="250" cy="200" r="35" fill="white" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="250" cy="200" r="12" fill="#F27B6A" opacity="0.3"/>
+  <circle cx="250" cy="200" r="6" fill="#F27B6A"/>
+
+  <!-- Branch 1 (top) -->
+  <circle cx="250" cy="90" r="20" fill="#F27B6A" stroke="white" stroke-width="2"/>
+  <circle cx="250" cy="90" r="8" fill="white"/>
+  <rect x="235" y="50" width="30" height="4" rx="2" fill="#737373"/>
+  <path d="M 250 125 L 250 165" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Branch 2 (right) -->
+  <circle cx="380" cy="160" r="20" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="380" cy="160" r="8" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="395" y="148" width="30" height="4" rx="2" fill="#737373"/>
+  <path d="M 360 160 L 285 190" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Branch 3 (bottom) -->
+  <circle cx="280" cy="310" r="20" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="280" cy="310" r="8" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="265" y="340" width="30" height="4" rx="2" fill="#737373"/>
+  <path d="M 275 290 L 260 235" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Branch 4 (left) -->
+  <circle cx="130" cy="220" r="20" fill="#F27B6A" stroke="white" stroke-width="2"/>
+  <circle cx="130" cy="220" r="8" fill="white"/>
+  <rect x="85" y="218" width="30" height="4" rx="2" fill="#737373"/>
+  <path d="M 150 220 L 215 205" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Branch 5 (top-left) -->
+  <circle cx="160" cy="110" r="18" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="160" cy="110" r="7" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="120" y="90" width="25" height="4" rx="2" fill="#737373"/>
+  <path d="M 175 125 L 220 170" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Data flow arrows toward center -->
+  <path d="M 250 125 L 250 135" stroke="#F27B6A" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 247 132 L 250 135 L 253 132" stroke="#F27B6A" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <path d="M 360 160 L 350 165" stroke="#F27B6A" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 353 162 L 350 165 L 355 168" stroke="#F27B6A" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <path d="M 150 220 L 160 215" stroke="#F27B6A" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 157 218 L 160 215 L 155 212" stroke="#F27B6A" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Performance chart (right) -->
+  <rect x="390" y="250" width="90" height="80" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="405" y="262" width="40" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="405" y="285" width="12" height="25" rx="6" fill="#F27B6A" opacity="0.5"/>
+  <rect x="422" y="275" width="12" height="35" rx="6" fill="#F27B6A" opacity="0.7"/>
+  <rect x="439" y="265" width="12" height="45" rx="6" fill="#F27B6A"/>
+  <rect x="456" y="280" width="12" height="30" rx="6" fill="#7C5CFC" opacity="0.5"/>
+
+  <!-- Pulse rings around active locations -->
+  <circle cx="250" cy="90" r="28" fill="none" stroke="#F27B6A" stroke-width="1" opacity="0.2"/>
+  <circle cx="130" cy="220" r="28" fill="none" stroke="#F27B6A" stroke-width="1" opacity="0.2"/>
+
+  <!-- Floating elements -->
+  <circle cx="80" cy="320" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="450" cy="120" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="100" cy="150" r="6" fill="#F27B6A" opacity="0.2"/>
+</svg>

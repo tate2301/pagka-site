@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <!-- Zimbabwe abstract shape (simplified trapezoid) -->
+  <path d="M 180 120 L 420 100 L 450 280 L 160 300 Z" fill="white" stroke="#1A1A1A" stroke-width="1.5" rx="20"/>
+  
+  <!-- Location nodes -->
+  <!-- Harare (headquarters, active) -->
+  <circle cx="320" cy="150" r="18" fill="#F27B6A" stroke="white" stroke-width="2"/>
+  <circle cx="320" cy="150" r="8" fill="white"/>
+  <rect x="340" y="142" width="50" height="4" rx="2" fill="#F27B6A"/>
+
+  <!-- Bulawayo -->
+  <circle cx="230" cy="220" r="14" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="230" cy="220" r="6" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="190" y="228" width="50" height="4" rx="2" fill="#737373"/>
+
+  <!-- Mutare -->
+  <circle cx="400" cy="190" r="14" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="400" cy="190" r="6" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="410" y="198" width="45" height="4" rx="2" fill="#737373"/>
+
+  <!-- Masvingo -->
+  <circle cx="300" cy="250" r="14" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="300" cy="250" r="6" fill="#1A1A1A" opacity="0.3"/>
+  <rect x="270" y="258" width="50" height="4" rx="2" fill="#737373"/>
+
+  <!-- Gweru -->
+  <circle cx="260" cy="180" r="14" fill="#F27B6A" stroke="white" stroke-width="2"/>
+  <circle cx="260" cy="180" r="6" fill="white"/>
+  <rect x="210" y="172" width="40" height="4" rx="2" fill="#F27B6A"/>
+
+  <!-- Connecting lines -->
+  <line x1="260" y1="180" x2="320" y2="150" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="320" y1="150" x2="400" y2="190" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="320" y1="150" x2="300" y2="250" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="230" y1="220" x2="300" y2="250" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="260" y1="180" x2="230" y2="220" stroke="#1A1A1A" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Pulse rings around Harare -->
+  <circle cx="320" cy="150" r="28" fill="none" stroke="#F27B6A" stroke-width="1" opacity="0.2"/>
+  <circle cx="320" cy="150" r="38" fill="none" stroke="#F27B6A" stroke-width="1" opacity="0.1"/>
+
+  <!-- Stats bars (bottom right) -->
+  <rect x="480" y="280" width="100" height="90" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <rect x="495" y="292" width="50" height="4" rx="2" fill="#1A1A1A"/>
+  <rect x="495" y="310" width="30" height="8" rx="4" fill="#F27B6A" opacity="0.5"/>
+  <rect x="495" y="325" width="40" height="8" rx="4" fill="#7C5CFC" opacity="0.4"/>
+  <rect x="495" y="340" width="35" height="8" rx="4" fill="#F27B6A" opacity="0.6"/>
+  <rect x="495" y="355" width="45" height="8" rx="4" fill="#1A1A1A" opacity="0.2"/>
+
+  <!-- Floating elements -->
+  <circle cx="100" cy="120" r="10" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="520" cy="100" r="12" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="80" cy="280" r="8" fill="#F27B6A" opacity="0.2"/>
+  <circle cx="550" cy="200" r="8" fill="#7C5CFC" opacity="0.15"/>
+</svg>
