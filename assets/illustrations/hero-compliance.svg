@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <!-- Central shield -->
+  <path d="M 250 100 Q 320 100 350 140 L 350 200 Q 350 280 250 320 Q 150 280 150 200 L 150 140 Q 180 100 250 100Z" fill="white" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Inner shield checkmark -->
+  <path d="M 225 220 L 245 240 L 285 190" stroke="#F27B6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Documents behind shield -->
+  <rect x="100" y="160" width="80" height="100" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1" transform="rotate(-8 140 210)"/>
+  <rect x="110" y="170" width="50" height="4" rx="2" fill="#737373" transform="rotate(-8 140 210)"/>
+  <rect x="110" y="182" width="40" height="3" rx="1.5" fill="#737373" transform="rotate(-8 140 210)"/>
+  <rect x="110" y="192" width="45" height="3" rx="1.5" fill="#737373" transform="rotate(-8 140 210)"/>
+  
+  <rect x="320" y="150" width="80" height="100" rx="8" fill="white" stroke="#E5E5E5" stroke-width="1" transform="rotate(8 360 200)"/>
+  <rect x="330" y="160" width="50" height="4" rx="2" fill="#737373" transform="rotate(8 360 200)"/>
+  <rect x="330" y="172" width="40" height="3" rx="1.5" fill="#737373" transform="rotate(8 360 200)"/>
+  <rect x="330" y="182" width="45" height="3" rx="1.5" fill="#737373" transform="rotate(8 360 200)"/>
+
+  <!-- Audit points on documents -->
+  <circle cx="120" cy="210" r="5" fill="#F27B6A" opacity="0.5" transform="rotate(-8 140 210)"/>
+  <circle cx="130" cy="230" r="5" fill="#7C5CFC" opacity="0.4" transform="rotate(-8 140 210)"/>
+  <circle cx="140" cy="200" r="5" fill="#F27B6A" opacity="0.3" transform="rotate(-8 140 210)"/>
+  
+  <circle cx="340" cy="200" r="5" fill="#F27B6A" opacity="0.5" transform="rotate(8 360 200)"/>
+  <circle cx="350" cy="220" r="5" fill="#7C5CFC" opacity="0.4" transform="rotate(8 360 200)"/>
+  <circle cx="360" cy="190" r="5" fill="#F27B6A" opacity="0.3" transform="rotate(8 360 200)"/>
+
+  <!-- Bottom timeline -->
+  <rect x="100" y="350" width="300" height="30" rx="6" fill="white" stroke="#E5E5E5" stroke-width="1"/>
+  <line x1="130" y1="365" x2="370" y2="365" stroke="#E5E5E5" stroke-width="2" stroke-linecap="round"/>
+  <!-- Timeline nodes -->
+  <circle cx="130" cy="365" r="6" fill="#1A1A1A"/>
+  <path d="M 127 365 L 130 368 L 133 364" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="210" cy="365" r="6" fill="#1A1A1A"/>
+  <path d="M 207 365 L 210 368 L 213 364" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="290" cy="365" r="6" fill="#F27B6A"/>
+  <circle cx="370" cy="365" r="6" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+
+  <!-- Violet depth circle behind shield -->
+  <circle cx="250" cy="210" r="70" fill="#7C5CFC" opacity="0.08"/>
+
+  <!-- Labels -->
+  <rect x="200" y="80" width="100" height="16" rx="4" fill="#F27B6A" opacity="0.1"/>
+  <rect x="220" y="86" width="60" height="4" rx="2" fill="#F27B6A"/>
+
+  <!-- Floating elements -->
+  <circle cx="80" cy="120" r="8" fill="#F27B6A" opacity="0.15"/>
+  <circle cx="420" cy="280" r="10" fill="#7C5CFC" opacity="0.1"/>
+  <circle cx="450" cy="150" r="6" fill="#F27B6A" opacity="0.2"/>
+</svg>
